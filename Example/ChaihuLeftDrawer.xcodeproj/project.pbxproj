@@ -15,7 +15,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* ChaihuLeftDrawerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ChaihuLeftDrawerAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* ChaihuLeftDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ChaihuLeftDrawerViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,7 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BE0DBF351F4D751B0003D533 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0DBF341F4D751B0003D533 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		2675A276623D691B3532E397 /* Pods-ChaihuLeftDrawer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaihuLeftDrawer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChaihuLeftDrawer_Example/Pods-ChaihuLeftDrawer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2B0843B1394D2D4BAC31ACCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2B0843B1394D2D4BAC31ACCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ChaihuLeftDrawer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaihuLeftDrawer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,8 +48,6 @@
 		6003F59B195388D20070C39A /* ChaihuLeftDrawer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChaihuLeftDrawer-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* ChaihuLeftDrawerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChaihuLeftDrawerAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* ChaihuLeftDrawerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaihuLeftDrawerAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* ChaihuLeftDrawerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChaihuLeftDrawerViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* ChaihuLeftDrawerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaihuLeftDrawerViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ChaihuLeftDrawer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaihuLeftDrawer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,11 +57,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		870558EF28B02B7B97E9C499 /* Pods_ChaihuLeftDrawer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaihuLeftDrawer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D9EFED25816DDDEB6FE4198 /* Pods-ChaihuLeftDrawer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaihuLeftDrawer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChaihuLeftDrawer_Tests/Pods-ChaihuLeftDrawer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AF537C8BC59C2DB512B9E67A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AF537C8BC59C2DB512B9E67A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BBC377297A60C2E3DA3A4553 /* Pods-ChaihuLeftDrawer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaihuLeftDrawer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChaihuLeftDrawer_Tests/Pods-ChaihuLeftDrawer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C8AEF3D3234E3D24A1B6E8E6 /* ChaihuLeftDrawer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ChaihuLeftDrawer.podspec; path = ../ChaihuLeftDrawer.podspec; sourceTree = "<group>"; };
+		BE0DBF331F4D751B0003D533 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BE0DBF341F4D751B0003D533 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C8AEF3D3234E3D24A1B6E8E6 /* ChaihuLeftDrawer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ChaihuLeftDrawer.podspec; path = ../ChaihuLeftDrawer.podspec; sourceTree = "<group>"; };
 		DCEA74FBCB0CDBAB247629A9 /* Pods_ChaihuLeftDrawer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaihuLeftDrawer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF54F59180C0890437BD2FC4 /* Pods-ChaihuLeftDrawer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaihuLeftDrawer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChaihuLeftDrawer_Example/Pods-ChaihuLeftDrawer_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,9 +132,8 @@
 			children = (
 				6003F59C195388D20070C39A /* ChaihuLeftDrawerAppDelegate.h */,
 				6003F59D195388D20070C39A /* ChaihuLeftDrawerAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* ChaihuLeftDrawerViewController.h */,
-				6003F5A6195388D20070C39A /* ChaihuLeftDrawerViewController.m */,
+				BE0DBF331F4D751B0003D533 /* RootViewController.h */,
+				BE0DBF341F4D751B0003D533 /* RootViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -279,7 +276,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -395,8 +391,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ChaihuLeftDrawerAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* ChaihuLeftDrawerViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				BE0DBF351F4D751B0003D533 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

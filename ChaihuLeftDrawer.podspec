@@ -1,42 +1,19 @@
-#
-# Be sure to run `pod lib lint ChaihuLeftDrawer.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'ChaihuLeftDrawer'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ChaihuLeftDrawer.'
+  s.name         = "ChaihuLeftDrawer"
+  s.version      = "0.0.1"
+  s.summary      = "左抽屉"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.description  = <<-DESC
+                    左抽屉
+                   DESC
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.homepage     = "https://github.com/chaiHuJYK/ChaihuLeftDrawer"
 
-  s.homepage         = 'https://github.com/chaihu@jiayukang.com/ChaihuLeftDrawer'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'chaihu@jiayukang.com' => 'shanli@2dfire.com' }
-  s.source           = { :git => 'https://github.com/chaihu@jiayukang.com/ChaihuLeftDrawer.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.license      = "MIT (example)"
+  s.author       = { "shanli" => "shanli@2dfire.com" }
+  s.source       = { :git => "https://github.com/chaiHuJYK/ChaihuLeftDrawer.git", :tag => "#{s.version}" }
 
-  s.ios.deployment_target = '8.0'
+  s.source_files  = "ChaihuLeftDrawer/Class/**/*.{h,m}"
+  s.resources = "ChaihuLeftDrawer/Classes/**/*.{xib,xml,xcassets}"
 
-  s.source_files = 'ChaihuLeftDrawer/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ChaihuLeftDrawer' => ['ChaihuLeftDrawer/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
