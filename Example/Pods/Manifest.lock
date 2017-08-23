@@ -1,0 +1,22 @@
+PODS:
+  - ChaihuLeftDrawer (0.1.0)
+  - Expecta (1.0.6)
+  - Specta (1.0.6)
+
+DEPENDENCIES:
+  - ChaihuLeftDrawer (from `../`)
+  - Expecta
+  - Specta
+
+EXTERNAL SOURCES:
+  ChaihuLeftDrawer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChaihuLeftDrawer: 062f997dcdcf92cf80449da14dfc96b53a8797ed
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+
+PODFILE CHECKSUM: a103de7c622b3f3fc5efde66a480689e091866a0
+
+COCOAPODS: 1.1.1
