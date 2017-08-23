@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'ChaihuLeftDrawer_Example' do
+  pod 'ChaihuLeftDrawer', :path => '../'
+
+  target 'ChaihuLeftDrawer_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
