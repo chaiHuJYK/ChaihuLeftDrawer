@@ -1,22 +1,22 @@
 {
   "name": "ChaihuLeftDrawer",
-  "version": "0.1.0",
-  "summary": "A short description of ChaihuLeftDrawer.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/chaihu@jiayukang.com/ChaihuLeftDrawer",
+  "version": "0.0.1",
+  "summary": "简单抽屉效果",
+  "description": "简单抽屉效果。",
+  "homepage": "https://github.com/chaiHuJYK/ChaihuLeftDrawer",
   "license": {
     "type": "MIT",
-    "file": "LICENSE"
+    "file": "FILE_LICENSE"
   },
   "authors": {
-    "chaihu@jiayukang.com": "shanli@2dfire.com"
+    "shanli": "shanli@2dfire.com"
   },
   "source": {
-    "git": "https://github.com/chaihu@jiayukang.com/ChaihuLeftDrawer.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/chaiHuJYK/ChaihuLeftDrawer.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ChaihuLeftDrawer/Classes/**/*"
+  "source_files": "ChaihuLeftDrawer/Classes/**/*.{h,m}"
 }

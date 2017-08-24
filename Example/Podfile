@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'ChaihuLeftDrawer_Example' do
-  pod 'ChaihuLeftDrawer', :path => '../'
+  pod 'ChaihuLeftDrawer', :path => '../../ChaihuLeftDrawer'
 
   target 'ChaihuLeftDrawer_Tests' do
     inherit! :search_paths

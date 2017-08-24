@@ -9,7 +9,6 @@
 #import "RootViewController.h"
 #import "LeftMenuView.h"
 
-
 @interface RootViewController () <LeftMenuViewDelegate>
 {
     UIButton *leftBtn;
